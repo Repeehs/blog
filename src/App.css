@@ -1,0 +1,122 @@
+body{
+    width:auto;
+    height:auto;
+    margin:auto;
+    padding:auto;
+    background: #5994B6;
+}
+.header{
+    width:100%;
+    height:fit-content;
+}
+.header img{
+    width:100%;
+    height:auto;
+}
+.frame2{
+    width:100%;
+}
+.con1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1vw;
+}
+.avatar{
+    width:25vw;
+    margin-top:-14vw;
+    position: relative;
+    margin-left:70vw;
+}
+.viewer{
+    width:60vw;
+    margin-top:1.5vw;
+}
+.container2{
+    margin-top:1vw;
+    display: flex;
+    justify-content: center;
+}
+.from-viewer{
+    width:90%;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:5vw;
+}
+.my-story{
+    width:90%;
+}
+.pixel{
+    width:90%;
+}
+.container6{
+    display:flex;
+    margin-top:7vw;
+    justify-content: center;
+}
+.container7{
+    margin-top:5vw;
+    display:flex;
+    justify-content: space-between;
+}
+.box{
+    width:31%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pic1 , .pic2,.pic3{
+    width:70%;
+    z-index:1;
+}
+.button1{
+    width:fit-content;
+    height:fit-content;
+    position: absolute;
+    bottom:-1vw;
+    left:16vw;
+    background-color: #5994B6;
+    border:none;
+}
+.button1:hover{
+    cursor: pointer;
+}
+.read-more{
+    width:8vw;
+}
+.footer{
+    margin-top:50px;
+    width:100%;
+    position: relative;
+    margin-bottom:-10px;
+}
+
+@font-face {
+    font-family: inika;
+    src: url('https://fonts.google.com/specimen/Inika?query=inika');
+}
+@media screen and (min-width: 1500px) {
+    .from-viewer{
+        width:69%;
+    }
+    .my-story{
+        width:69%;
+    }
+    .frame2{
+        width:85%;
+    }
+    .avatar{
+        width:25vw;
+        margin-top:-14vw;
+        position: relative;
+        margin-left:67vw;
+    }
+}
+  
